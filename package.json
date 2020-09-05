@@ -1,0 +1,20 @@
+{
+  "name": "cordova-parcel-starterkit",
+  "version": "1.0.0",
+  "description": "A simple cordova starter project for getting up to speed with mobile hybrid development.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robinjac/cordova-parcel-starterkit.git"
+  },
+  "keywords": [],
+  "author": "robinjac",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robinjac/cordova-parcel-starterkit/issues"
+  },
+  "homepage": "https://github.com/robinjac/cordova-parcel-starterkit#readme"
+}

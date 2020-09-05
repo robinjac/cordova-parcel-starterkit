@@ -1,0 +1,41 @@
+{
+  "name": "cordova-parcel-starterkit",
+  "displayName": "Cordova parcel starterkit",
+  "version": "1.0.0",
+  "description": "A simple cordova starter project for getting up to speed with mobile hybrid development.",
+  "scripts": {
+    "setup": "node scripts/beforePrepare && cordova prepare",
+    "serve": "node scripts/browser/beforeBuild && cordova build browser",
+    "deploy:android": "cordova run android --noprepare --nobuild --device",
+    "deploy:ios": "cordova run ios --noprepare --nobuild --device",
+    "build:android": "node scripts/mobile/beforeBuild && cordova build android",
+    "build:ios": "node scripts/mobile/beforeBuild && cordova build ios"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.11",
+    "autoprefixer": "^9.7.5",
+    "cordova-android": "^9.0.0",
+    "cordova-browser": "^6.0.0",
+    "cordova-ios": "^6.1.1",
+    "cordova-plugin-ionic-webview": "^5.0.0",
+    "cordova-plugin-splashscreen": "^6.0.0",
+    "cordova-plugin-whitelist": "^1.3.4",
+    "cordova-res": "^0.15.1",
+    "open": "^7.2.1",
+    "parcel-bundler": "^1.12.4",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.0.2"
+  },
+  "cordova": {
+    "platforms": [
+      "android",
+      "ios",
+      "browser"
+    ],
+    "plugins": {
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-ionic-webview": {}
+    }
+  }
+}
